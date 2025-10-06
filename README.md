@@ -1,7 +1,5 @@
-# stopwatch
-A simple stop watch written in js 
 
----------- README ----------
+
 # Stopwatch Project
 
 A simple stopwatch built with HTML, CSS, and JavaScript.
@@ -22,4 +20,7 @@ https://stopwatch-kappa-indol.vercel.app/
 * HTML
 * CSS
 * JavaScript
-* 
+
+  
+## Demo Video
+[![Stopwatch Demo](./demo-video.mp4)](./demo-video.mp4)
