@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stop Watch</title>
+  <script src="code.js"></script>
+  <style>
+    body {
+      background-color: ghostwhite;
+    }
+    .container {
+      width: 90%;
+      margin: auto;
+      text-align: center;
+    }
+    h2 {
+      margin: 2em auto 5em auto;
+    }
+    .sub-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      height: 70px;
+      text-align: center;
+      margin: 1em auto 3em auto;
+      padding: 1em;
+      font-style: bold;
+      background-color: navajowhite;
+      box-shadow: 0px 5px 5px -5px #444;
+    }
+    .inline {
+      display: flex;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+      font-size: 1.5em;
+    }
+    .small {
+      font-size: 0.5em;
+    }
+    button {
+      padding: 0.5em 1em;
+      margin: 0 0.5em 1.5em 0.5em;
+      border: none;
+      color: #fff;
+      border-radius: 8px;
+    }
+    #start {
+      background-color: blue;
+    }
+    #stop, #reset {
+      background-color: red;
+    }
+    
+    /* JavaScript class function*/
+    .hide {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h2>Stop Watch</h2>
+    <div class="sub-container">
+      <div class="inline">
+        <span id="hr-zero">0</span><div id="hour">0</div>
+        </div>
+      <div class="inline">
+        <span id="min-zero">0</span><div id="minute">0</div>
+      </div>
+      <div class="inline">
+        <span id="sec-zero">0</span><div id="seconds">0</div>
+      </div>
+      <div class="inline small">
+        <span id="milsec-zero">0</span><div id="milseconds">0</div>
+      </div>
+    </div>
+    
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+    <button id="reset">Reset</button>
+  </div>
+</body>
+
+  </html>
