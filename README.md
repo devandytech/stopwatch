@@ -21,6 +21,6 @@ https://stopwatch-kappa-indol.vercel.app/
 * CSS
 * JavaScript
 
-  
 ## Demo Video
-[![Stopwatch Demo](./demo-video.mp4)](./demo-video.mp4)
+[![Watch the video](https://img.youtube.com/vi/HfgBJAstbgE/maxresdefault.jpg)](https://youtube.com/shorts/HfgBJAstbgE?si=_C2_qBSSp29mo7Ji)
+
