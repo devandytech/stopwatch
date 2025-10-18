@@ -33,6 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // start button function 
   function startCounter() {
     clearInterval(intervalID);
+    stopButton.textContent = 'Pause';
     console.log('Start')
     intervalID = setInterval(() => {
       milSec_Counter++;
@@ -89,12 +90,15 @@ document.addEventListener('DOMContentLoaded', () => {
   // Stop function 
   function stopCounter() {
     clearInterval(intervalID);
+    startButton.textContent = 'Continue';
     console.log('Stop')
   }
   
   // Reset function 
   function resetCounter() {
     console.log('Reset');
+    startButton.textContent = 'Start';
+    stopButton.textContent = 'Stop';
     hrCounter = 0;
     minCounter = 0;
     sec_Counter = 0;
